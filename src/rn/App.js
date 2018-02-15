@@ -13,6 +13,7 @@ import {
 
 import {add} from 'shared/math';
 import {reverseString} from 'web/webDep';
+import Sample from 'shared/Sample';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -26,6 +27,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+       <Sample />
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
