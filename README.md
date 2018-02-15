@@ -4,6 +4,7 @@ The layout of this simple example project is as follows:
 * `src/web/` containing web specific code
 * `src/rn/` containing the entire react-native project
 The root of the project was generated with `create-react-app`, whereas the react-native portion is solely within the `src/rn/` dir.
+* `src/expo-app/` containing expo react native poject
 
 There are a couple steps taken, beyond `create-react-app` and `react-native init`, to get this project working with adjacent absolute imports.
 * I've added the `src/` dir to the webpack config(s) `resolve.modules` (note facebook's careful application of DRY by having two entirely separate webpack configs for prod and dev)
